@@ -1,5 +1,5 @@
 import { screen, render, fireEvent } from "@testing-library/react";
-import InputElement from '../Component/InputElement';
+import InputElement from '../Pages/InputElement';
 
 
 test("InputElement Component - Case 1: Testing User Name Input box", () => {

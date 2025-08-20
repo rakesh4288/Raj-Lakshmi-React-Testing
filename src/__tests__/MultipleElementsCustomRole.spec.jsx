@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import MultipleElementsCustomRole from "../Component/MultipleElementsCustomRole";
+import MultipleElementsCustomRole from "../Pages/MultipleElementsCustomRole";
 
 // we can not find two button with only using getByRole
 // We need to use the data-testid or name attributes

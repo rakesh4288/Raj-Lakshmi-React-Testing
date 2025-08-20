@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import FunctionTesting from "../Component/FunctionTesting";
+import FunctionTesting from "../Pages/FunctionTesting";
 import handleOtherMethod from "../Component/Helper";
 
 test("Functional Testing - Case 1: Checking on Click Event", ()=>{

@@ -1,5 +1,11 @@
 body{
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; */
   padding-top: 60px;
+  font-size: 14px;
+}
+
+.mainBody {
+  min-height: 500px;
 }
 
 .navbar{
@@ -12,7 +18,7 @@ body{
 }
 
 .App-logo {
-  height: 6vmin;
+  height: 8vmin;
   pointer-events: none;
 }
 
@@ -44,4 +50,61 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.siteFooter{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,21,121,1) 49%, rgba(0,212,255,1) 100%);
+  padding: 10px 0;
+}
+
+.text{
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+h2 {
+  font-size: 32px !important;
+  color: #022441 !important;
+  font-weight: normal !important;
+}
+
+h3 {
+  font-size: 28px !important;
+  color: #cc0995 !important;
+  font-weight: normal !important;
+}
+
+h4 {
+  font-size: 24px !important;
+  color: #7807f4 !important;
+  font-weight: normal !important;
+}
+
+h5{
+  font-size: 20px !important;
+  color: #0d61dc !important;
+  font-weight: normal !important;
+}
+
+h6 {
+  font-size: 16px !important;
+  color: #2206ad !important;
+  line-height: 1.5rem !important;
+  font-weight: normal !important;
+}
+
+.nav-link{
+  font-size: 14px;
+}
+
+.dropdown-item{
+  font-size: 14px;
 }
